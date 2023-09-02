@@ -1,4 +1,4 @@
-﻿﻿/*******************VITOR*******************/
+/*******************VITOR*******************/
 //Vitor você vai fzer o codigo para o usuario digitar e guardar na variével
 //vão ser dois numeros digite o primeir depois digite o segundo.
 
@@ -38,8 +38,11 @@ Console.WriteLine (numero1 + numero2);
 }
 
 else if(operador == "/"){
-Console.WriteLine (numero1 / numero2);
+Console.WriteLine (numero1 / numero2); //aaaaaaaa
 
 
 }
 
+else if(operador == "-"){
+Console.WriteLine (numero1 - numero2);
+}
