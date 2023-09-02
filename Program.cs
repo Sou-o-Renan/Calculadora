@@ -36,3 +36,10 @@ Console.WriteLine (numero1 + numero2);
  
  
 }
+
+else if(operador == "/"){
+Console.WriteLine (numero1 / numero2);
+
+
+}
+
