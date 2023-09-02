@@ -20,3 +20,6 @@ int numero2 = 0;
 Console.WriteLine("Calculadora");
 Console.WriteLine("Digite o primeiro numero");
 Console.ReadLine(numero1);
+Console.WriteLine("Digite o segundo numero");
+Console.ReadLine(numero1);
+Console.ReadLine(numero2);
