@@ -21,33 +21,35 @@ string operador = null!;
 
 Console.WriteLine("Calculadora de 4 operações");
 Console.WriteLine("Digite o primeiro numero a ser calculado");
+numero1 = Convert.ToInt32(Console.ReadLine());
+
 Console.WriteLine("Digite o segundo numero a ser calculado");
+numero2 = Convert.ToInt32(Console.ReadLine());
+
 Console.WriteLine("Digite o operador matematico + para soma");
 Console.WriteLine("Digite o operador matematico - para subtração");
 Console.WriteLine("Digite o operador matematico / para divisão");
 Console.WriteLine("Digite o operador matematico * para multiplicação");
-
-numero1 = Convert.ToInt32(Console.ReadLine());
-numero2 = Convert.ToInt32(Console.ReadLine());
 operador = Console.ReadLine()!;
+
 
 if (operador == "+")
 {
-    Console.WriteLine(numero1 + numero2);
+    Console.WriteLine($"{numero1} {operador} {numero2} = {numero1 + numero2}");
 }
 
 else if(operador == "-"){
-Console.WriteLine (numero1 - numero2);
+Console.WriteLine($"{numero1} {operador} {numero2} = {numero1 - numero2}");
 
 }
 
 else if(operador == "/"){
-Console.WriteLine (numero1 / numero2); //aaaaaaaa
+Console.WriteLine($"{numero1} {operador} {numero2} = {numero1 / numero2}");
 
 }
 
 else if (operador == "*"){
-    Console.WriteLine(numero1 * numero2);
+    Console.WriteLine($"{numero1} {operador} {numero2} = {numero1 * numero2}");
 }
 
 else
