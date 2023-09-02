@@ -17,9 +17,9 @@
 ﻿int numero1 = 0; 
 int numero2 = 0;
 
-Console.WriteLine("Calculadora");
-Console.WriteLine("Digite o primeiro numero");
-Console.WriteLine("Digite o segundo numero");
+Console.WriteLine("Calculadora de 4 operações");
+Console.WriteLine("Digite o primeiro numero a ser calculado");
+Console.WriteLine("Digite o segundo numero a ser calculado");
 
 numero1 = Convert.ToInt32(Console.ReadLine());
 numero2 = Convert.ToInt32(Console.ReadLine());
