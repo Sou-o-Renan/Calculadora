@@ -27,6 +27,6 @@ Console.WriteLine("Digite o operador matematico - para subtração");
 Console.WriteLine("Digite o operador matematico / para divisão");
 Console.WriteLine("Digite o operador matematico * para multiplicação");
 
-operador = Console.ReadLine()!;
 numero1 = Convert.ToInt32(Console.ReadLine());
 numero2 = Convert.ToInt32(Console.ReadLine());
+operador = Console.ReadLine()!;
