@@ -30,3 +30,9 @@ Console.WriteLine("Digite o operador matematico * para multiplicação");
 numero1 = Convert.ToInt32(Console.ReadLine());
 numero2 = Convert.ToInt32(Console.ReadLine());
 operador = Console.ReadLine()!;
+
+if(operador == "+"){
+Console.WriteLine (numero1 + numero2);
+ 
+ 
+}
