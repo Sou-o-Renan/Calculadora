@@ -1,3 +1,6 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
-Console.WriteLine("Hello, Emerson!");
+﻿int numero1 = 0; 
+int numero2 = 0;
+
+Console.WriteLine("Calculadora");
+Console.WriteLine("Digite o primeiro numero");
+Console.ReadLine(numero1);
