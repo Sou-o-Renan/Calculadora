@@ -1,4 +1,4 @@
-﻿/*******************VITOR*******************/
+﻿﻿/*******************VITOR*******************/
 //Vitor você vai fzer o codigo para o usuario digitar e guardar na variével
 //vão ser dois numeros digite o primeir depois digite o segundo.
 
@@ -19,7 +19,7 @@ int numero2 = 0;
 
 Console.WriteLine("Calculadora");
 Console.WriteLine("Digite o primeiro numero");
-Console.ReadLine(numero1);
 Console.WriteLine("Digite o segundo numero");
-Console.ReadLine(numero1);
-Console.ReadLine(numero2);
+
+numero1 = Convert.ToInt32(Console.ReadLine());
+numero2 = Convert.ToInt32(Console.ReadLine());
