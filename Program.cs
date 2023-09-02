@@ -12,9 +12,9 @@
 //Vai verificar se os codigos etão corretos e fazer o código
 //que vai mostrar o resultado da operaçã matemática///
 
- 
- 
-int numero1 = 0; 
+
+
+int numero1 = 0;
 int numero2 = 0;
 
 string operador = null!;
@@ -31,14 +31,30 @@ numero1 = Convert.ToInt32(Console.ReadLine());
 numero2 = Convert.ToInt32(Console.ReadLine());
 operador = Console.ReadLine()!;
 
-if(operador == "+"){
-Console.WriteLine (numero1 + numero2);
- 
- 
-} else{
-    Console.WriteLine ( "operador invalido");
+if (operador == "+")
+{
+    Console.WriteLine(numero1 + numero2);
+}
 
+else if (operador == "-")
+{
+    Console.WriteLine(numero1 - numero2);
+}
+
+else if (operador == "/")
+{
+    Console.WriteLine(numero1 / numero2); //aaaaaaaa
 
 }
+
+else if (operador == "*")
+{
+    Console.WriteLine(numero1 * numero2);
+}
+
+else
+{
+    Console.WriteLine("operador invalido");
+
 
 }
