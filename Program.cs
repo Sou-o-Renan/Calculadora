@@ -21,7 +21,10 @@ int numero2 = 0;
 Console.WriteLine("Calculadora de 4 operações");
 Console.WriteLine("Digite o primeiro numero a ser calculado");
 Console.WriteLine("Digite o segundo numero a ser calculado");
-Console.WriteLine("Digite o operador matematico + para soma - para subtração / para divisão * para multiplicação");
+Console.WriteLine("Digite o operador matematico + para soma");
+Console.WriteLine("Digite o operador matematico - para subtração");
+Console.WriteLine("Digite o operador matematico / para divisão");
+Console.WriteLine("Digite o operador matematico * para multiplicação");
 
 numero1 = Convert.ToInt32(Console.ReadLine());
 numero2 = Convert.ToInt32(Console.ReadLine());
